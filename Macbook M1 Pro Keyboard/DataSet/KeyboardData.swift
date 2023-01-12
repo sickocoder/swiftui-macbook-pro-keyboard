@@ -1,0 +1,100 @@
+//
+//  KeyboardData.swift
+//  Macbook M1 Pro Keyboard
+//
+//  Created by José Tony on 12/01/23.
+//
+
+import Foundation
+
+let keyboardData = [
+  [
+    KeyModel(mainChar: "esc", mainCharAligment: .bottomLeading, buttonWidth: 120),
+    KeyModel(mainChar: "f1", secondaryChar: "icon-sun.min"),
+    KeyModel(mainChar: "f2", secondaryChar: "icon-sun.max"),
+    KeyModel(mainChar: "f3", secondaryChar: "icon-rectangle.3.group"),
+    KeyModel(mainChar: "f4", secondaryChar: "icon-magnifyingglass"),
+    KeyModel(mainChar: "f5", secondaryChar: "icon-mic"),
+    KeyModel(mainChar: "f6", secondaryChar: "icon-moon"),
+    KeyModel(mainChar: "f7", secondaryChar: "icon-backward"),
+    KeyModel(mainChar: "f8", secondaryChar: "icon-playpause"),
+    KeyModel(mainChar: "f9", secondaryChar: "icon-forward"),
+    KeyModel(mainChar: "f10", secondaryChar: "icon-speaker"),
+    KeyModel(mainChar: "f11", secondaryChar: "icon-speaker.wave.1"),
+    KeyModel(mainChar: "f12", secondaryChar: "icon-speaker.wave.3"),
+    KeyModel(mainChar: "", type: .fingerPrintScanner)
+  ],
+  [
+    KeyModel(mainChar: "`", secondaryChar: "~"),
+    KeyModel(mainChar: "1", secondaryChar: "!"),
+    KeyModel(mainChar: "2", secondaryChar: "@"),
+    KeyModel(mainChar: "3", secondaryChar: "#"),
+    KeyModel(mainChar: "4", secondaryChar: "$"),
+    KeyModel(mainChar: "5", secondaryChar: "%"),
+    KeyModel(mainChar: "6", secondaryChar: "^"),
+    KeyModel(mainChar: "7", secondaryChar: "&"),
+    KeyModel(mainChar: "8", secondaryChar: "*"),
+    KeyModel(mainChar: "9", secondaryChar: "("),
+    KeyModel(mainChar: "0", secondaryChar: ")"),
+    KeyModel(mainChar: "-", secondaryChar: "_"),
+    KeyModel(mainChar: "=", secondaryChar: "+"),
+    KeyModel(mainChar: "delete", mainCharAligment: .bottomTrailing, buttonWidth: 120),
+  ],
+  [
+    KeyModel(mainChar: "tab", mainCharAligment: .bottomLeading, buttonWidth: 120),
+    KeyModel(mainChar: "Q"),
+    KeyModel(mainChar: "W"),
+    KeyModel(mainChar: "E"),
+    KeyModel(mainChar: "R"),
+    KeyModel(mainChar: "T"),
+    KeyModel(mainChar: "Y"),
+    KeyModel(mainChar: "U"),
+    KeyModel(mainChar: "I"),
+    KeyModel(mainChar: "O"),
+    KeyModel(mainChar: "P"),
+    KeyModel(mainChar: "["),
+    KeyModel(mainChar: "]"),
+    KeyModel(mainChar: "\\"),
+  ],
+  [
+    KeyModel(mainChar: "caps lock", mainCharAligment: .bottomLeading, buttonWidth: 146),
+    KeyModel(mainChar: "A"),
+    KeyModel(mainChar: "S"),
+    KeyModel(mainChar: "D"),
+    KeyModel(mainChar: "F"),
+    KeyModel(mainChar: "G"),
+    KeyModel(mainChar: "H"),
+    KeyModel(mainChar: "J"),
+    KeyModel(mainChar: "K"),
+    KeyModel(mainChar: "L"),
+    KeyModel(mainChar: ";", secondaryChar: ":"),
+    KeyModel(mainChar: "'", secondaryChar: "\""),
+    KeyModel(mainChar: "return", mainCharAligment: .bottomTrailing, buttonWidth: 145),
+  ],
+  [
+    KeyModel(mainChar: "shift", mainCharAligment: .bottomLeading, buttonWidth: 191),
+    KeyModel(mainChar: "Z"),
+    KeyModel(mainChar: "X"),
+    KeyModel(mainChar: "C"),
+    KeyModel(mainChar: "V"),
+    KeyModel(mainChar: "B"),
+    KeyModel(mainChar: "N"),
+    KeyModel(mainChar: "M"),
+    KeyModel(mainChar: ",", secondaryChar: "<"),
+    KeyModel(mainChar: ".", secondaryChar: ">"),
+    KeyModel(mainChar: "/", secondaryChar: "?"),
+    KeyModel(mainChar: "shift", mainCharAligment: .bottomTrailing, buttonWidth: 191),
+  ],
+  [
+    KeyModel(mainChar: "icon-globe", secondaryChar: "fn", mainCharAligment: .bottomLeading, secondaryCharAligment: .topTrailing),
+    KeyModel(mainChar: "control", secondaryChar: "icon-control", mainCharAligment: .bottomLeading, secondaryCharAligment: .topTrailing),
+    KeyModel(mainChar: "option", secondaryChar: "icon-option", mainCharAligment: .bottomLeading, secondaryCharAligment: .topTrailing),
+    KeyModel(mainChar: "command", secondaryChar: "icon-command", mainCharAligment: .bottomLeading, secondaryCharAligment: .topTrailing, buttonWidth: 100),
+    KeyModel(mainChar: "", buttonWidth: 445),
+    KeyModel(mainChar: "command", secondaryChar: "icon-command", mainCharAligment: .bottomLeading, secondaryCharAligment: .topLeading, buttonWidth: 100),
+    KeyModel(mainChar: "option", secondaryChar: "icon-option", mainCharAligment: .bottomLeading, secondaryCharAligment: .topLeading),
+    KeyModel(mainChar: "arrowtriangle.left.fill", type: .arrow),
+    KeyModel(mainChar: "arrowtriangle.down.fill", secondaryChar: "arrowtriangle.up.fill", type: .arrow),
+    KeyModel(mainChar: "arrowtriangle.right.fill", type: .arrow),
+  ]
+]

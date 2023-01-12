@@ -11,6 +11,13 @@
 		2CFFB16E29700A0200EA972C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB16D29700A0200EA972C /* ContentView.swift */; };
 		2CFFB17029700A0300EA972C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFB16F29700A0300EA972C /* Assets.xcassets */; };
 		2CFFB17329700A0300EA972C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFB17229700A0300EA972C /* Preview Assets.xcassets */; };
+		2CFFB17E29700B0400EA972C /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB17D29700B0400EA972C /* KeyboardKey.swift */; };
+		2CFFB18129700CE600EA972C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB18029700CE600EA972C /* Color+Extension.swift */; };
+		2CFFB18729701EF000EA972C /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB18629701EF000EA972C /* KeyModel.swift */; };
+		2CFFB18A29701FBC00EA972C /* KeyboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB18929701FBC00EA972C /* KeyboardData.swift */; };
+		2CFFB18C29704C1500EA972C /* ArrowKeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB18B29704C1500EA972C /* ArrowKeyboardKey.swift */; };
+		2CFFB18E297051F800EA972C /* BiometricScannerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB18D297051F800EA972C /* BiometricScannerButton.swift */; };
+		2CFFB19029705AE500EA972C /* SpeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFB18F29705AE500EA972C /* SpeakerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		2CFFB16F29700A0300EA972C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFFB17229700A0300EA972C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CFFB17429700A0300EA972C /* Macbook_M1_Pro_Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Macbook_M1_Pro_Keyboard.entitlements; sourceTree = "<group>"; };
+		2CFFB17D29700B0400EA972C /* KeyboardKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
+		2CFFB18029700CE600EA972C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		2CFFB18629701EF000EA972C /* KeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
+		2CFFB18929701FBC00EA972C /* KeyboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardData.swift; sourceTree = "<group>"; };
+		2CFFB18B29704C1500EA972C /* ArrowKeyboardKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowKeyboardKey.swift; sourceTree = "<group>"; };
+		2CFFB18D297051F800EA972C /* BiometricScannerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricScannerButton.swift; sourceTree = "<group>"; };
+		2CFFB18F29705AE500EA972C /* SpeakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,10 @@
 		2CFFB16A29700A0200EA972C /* Macbook M1 Pro Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				2CFFB18829701F9900EA972C /* DataSet */,
+				2CFFB18529701ED900EA972C /* Models */,
+				2CFFB17F29700CD400EA972C /* Extensions */,
+				2CFFB17A29700A9000EA972C /* Views */,
 				2CFFB16B29700A0200EA972C /* Macbook_M1_Pro_KeyboardApp.swift */,
 				2CFFB16D29700A0200EA972C /* ContentView.swift */,
 				2CFFB16F29700A0300EA972C /* Assets.xcassets */,
@@ -67,6 +85,41 @@
 				2CFFB17229700A0300EA972C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CFFB17A29700A9000EA972C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CFFB17D29700B0400EA972C /* KeyboardKey.swift */,
+				2CFFB18B29704C1500EA972C /* ArrowKeyboardKey.swift */,
+				2CFFB18D297051F800EA972C /* BiometricScannerButton.swift */,
+				2CFFB18F29705AE500EA972C /* SpeakerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CFFB17F29700CD400EA972C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CFFB18029700CE600EA972C /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CFFB18529701ED900EA972C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CFFB18629701EF000EA972C /* KeyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CFFB18829701F9900EA972C /* DataSet */ = {
+			isa = PBXGroup;
+			children = (
+				2CFFB18929701FBC00EA972C /* KeyboardData.swift */,
+			);
+			path = DataSet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFFB16E29700A0200EA972C /* ContentView.swift in Sources */,
+				2CFFB17E29700B0400EA972C /* KeyboardKey.swift in Sources */,
+				2CFFB19029705AE500EA972C /* SpeakerView.swift in Sources */,
+				2CFFB18A29701FBC00EA972C /* KeyboardData.swift in Sources */,
+				2CFFB18E297051F800EA972C /* BiometricScannerButton.swift in Sources */,
+				2CFFB18729701EF000EA972C /* KeyModel.swift in Sources */,
+				2CFFB18C29704C1500EA972C /* ArrowKeyboardKey.swift in Sources */,
 				2CFFB16C29700A0200EA972C /* Macbook_M1_Pro_KeyboardApp.swift in Sources */,
+				2CFFB18129700CE600EA972C /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
